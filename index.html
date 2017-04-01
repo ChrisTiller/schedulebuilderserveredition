@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="tableCSS.css">
+</head>
+<body>
+
+  <!-- DataTables CSS styling and script -->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script type="text/javascript" src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+  <!-- Schedule Table -->
+  <center><h1>Your Schedule</h1></center>
+  <table id="scheduleTable" class="display" width="100%"></table>
+  <!-- Course Table -->
+  <center><h1>Courses Offered: Fall 2017</h1></center>
+  <table id="courseTable" class="display" width="100%">
+    <thead>
+      <tr>
+                <th></th>
+                <th>CRN</th>
+                <th>SUBJ</th>
+                <th>CRS</th>
+                <th>TITLE</th>
+                <th>CH</th>
+                <th>MAX</th>
+                <th>ENR</th>
+                <th>AVALIABLE</th>
+                <th>DAYS</th>
+                <th>STARTS</th>
+                <th>ENDS</th>
+                <th>BUILDING</th>
+                <th>ROOMS</th>
+                <th>INSTRUCTOR</th>
+      </tr>
+      <tr id="filters">
+        <th></th>
+        <th id="textSearchCRN">CRN</th>
+        <th id="selectSearchSUBJ">SUBJ</th>
+        <th id="textSearchCRS">CRS</th>
+        <th id="textSearchTITLE">TITLE</th>
+        <th id="textSearchCH">CH</th>
+        <th id="textSearchMAX">MAX</th>
+        <th id="textSearchENR">ENR</th>
+        <th id="textSearchAVALIABLE">AVALIABLE</th>
+        <th id="selectSearchDAYS">DAYS</th>
+        <th id="selectSearchSTARTS">STARTS</th>
+        <th id="selectSearchENDS">ENDS</th>
+        <th id="textSearchBUILDING">BUILDING</th>
+        <th id="textSearchROOMS">ROOMS</th>
+        <th id="textSearchINSTRUCTOR">INSTRUCTOR</th>
+      </tr>
+    </thead>
+    <tfoot>
+    </tfoot>
+  </table>
+  <script type="text/javascript" src="tables.js"></script>
+</body>
+</html>
